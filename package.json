@@ -1,0 +1,33 @@
+{
+  "name": "rollio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeishirin/rollio.git"
+  },
+  "author": "",
+  "licennpse": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexeishirin/rollio/issues"
+  },
+  "homepage": "https://github.com/alexeishirin/rollio#readme",
+  "dependencies": {
+    "compression": "^1.6.1",
+    "express": "^4.13.4",
+    "salesforce-oauth2": "^0.1.8"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-concat": "^2.6.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-sass": "^2.3.1"
+  }
+}
